@@ -2,3 +2,18 @@ body {
     background-color: #ddd;
 }
 
+#board {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#player {
+    background-color: limegreen;
+    position: absolute;
+}
+
+.obstacle {
+    background-color: purple;
+    position: absolute;
+}
